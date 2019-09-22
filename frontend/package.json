@@ -1,0 +1,32 @@
+{
+  "name": "frontend",
+  "description": "Nuxt.js TypeScript project",
+  "version": "2.9.2",
+  "private": true,
+  "dependencies": {
+    "@nuxtjs/axios": "5.6.0",
+    "@nuxt/typescript-runtime": "0.1.6",
+    "nuxt": "2.9.2",
+    "nuxt-property-decorator": "2.4.0",
+    "vuex-class": "0.3.2"
+  },
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate",
+    "test": "jest",
+    "test-with-coverage": "npm test -- --coverage"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "0.2.9",
+    "@nuxtjs/vuetify": "^1.8.5",
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.3"
+  },
+  "jest": {
+    "verbose": true
+  }  
+}

@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+      "*.vue": "vue"
+    },
+    "eslint.validate": [
+      {
+        "language": "javascript",
+        "autoFix": true
+      },
+      {
+        "language": "vue",
+        "autoFix": true
+      }
+    ],
+    "eslint.autoFixOnSave": false,
+    "prettier.eslintIntegration": true,
+    // "vetur.format.defaultFormatter.html": "prettier"
+    "vetur.format.defaultFormatter.js": "prettier-eslint",
+    "editor.formatOnSave": false,
+    "editor.detectIndentation": false,
+    "python.pythonPath": "C:\\Users\\ches1009\\.virtualenvs\\backend-N74KLDwI\\Scripts\\python.exe"
+  }
