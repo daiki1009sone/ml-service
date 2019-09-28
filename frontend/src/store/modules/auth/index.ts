@@ -53,7 +53,7 @@ export const actions: ActionTree<RootState, RootState> = {
       // 認証用トークンをlocalStorageから削除
       localStorage.removeItem('access')
       // storeのユーザー情報をクリア
-      context.commit('clear')
+      context.commit('clearUser')
     },
     /**
      * ユーザー情報更新
@@ -63,7 +63,7 @@ export const actions: ActionTree<RootState, RootState> = {
         .then(response => {
           const user = response.data
           // storeのユーザー情報を更新
-          context.commit('set', { user: user })
+          context.commit('setUser', { user: user })
           return user
         })
     }
