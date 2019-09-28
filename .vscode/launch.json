@@ -1,0 +1,10 @@
+{
+    "name": "Attach (Remote Debug)",
+    "type": "python",
+    "request": "attach",
+    "lacalRoot": "/backend/restapi/mlservice/tests/",
+    "remoteRoot": "/backend/restapi/mlservice/tests/",
+    "secret": "my_secret",
+    "port": "8000",
+    "host": "127.0.0.1"
+}
