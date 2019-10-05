@@ -13,12 +13,11 @@ djangorestframework-simplejwt = "==4.3.0"
 djoser = "==2.0.3"
 django-cors-headers = "==3.1.0"
 scikit-learn = "*"
+ptvsd = "*"
 pandas = "*"
 numpy = "*"
 matplotlib = "*"
 pytest = "*"
-cython = "*"
-joblib = "*"
 
 [requires]
 python_version = "3.7"
